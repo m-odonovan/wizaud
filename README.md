@@ -22,7 +22,10 @@ All data resides in the Common Data Service (CDS), both WizAud definitions and r
 
 The admin model driven app is where you setup your WizAuds. A WizAud is something you want to capture e.g. Site Inspection, Vehicle Inspection, Request for Leave etc. Within a WizAud you define what fields (questions) you would like a person using the Canvas app to complete. A WizAud has a name, option start and end date, and some future feature flags e.g. generate PDF, request final signature etc. Each field has a data type, and order where it appears in the list of questions, required or not, if notes field should be displayed and if images should be captured for the question (future feature).
 
+![Admin App](https://github.com/m-odonovan/wizaud/blob/master/images/WizAudAdmin.gif "Admin App")
+
 The canvas app is a 2 screen sample app designed for phone form factor. First screen lists the WizAuds available for the user to complete, and also shows draft responses and previous responses. When you select a WizAud to complete, you are take to the second screen which lists the questions/fields the user should complete. Save as Draft will allow you to save a response to be submitted later e.g. because you are offline, and Submit button submits data to backend (CDS). Submit button is not available if offline.
 
-Solution file and overview PPT is in the solution folder.
+![Admin App](https://github.com/m-odonovan/wizaud/blob/master/images/App.gif "Canvas App")
 
+Solution file and overview PPT is in the solution folder.
